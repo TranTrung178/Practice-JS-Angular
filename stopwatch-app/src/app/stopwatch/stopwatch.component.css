@@ -1,0 +1,16 @@
+.stopwatch {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}

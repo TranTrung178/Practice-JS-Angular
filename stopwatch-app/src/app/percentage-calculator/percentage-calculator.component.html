@@ -1,0 +1,11 @@
+<div class="calculator">
+    <button (click)="generateNumbers()">Generate Numbers</button>
+    
+    <div *ngIf="numberA && numberB">
+        <p>Number A: {{ numberA }}</p>
+        <p>Number B: {{ numberB }}</p>
+        <p *ngIf="percentage !== null">Percentage (A/B): {{ percentage }}</p>
+        <p *ngIf="percentage === null">Cannot divide by zero.</p>
+        <button (click)="clear()">Clear</button>
+    </div>
+</div>

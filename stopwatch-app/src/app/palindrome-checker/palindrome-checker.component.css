@@ -1,0 +1,24 @@
+.checker {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+    width: 300px;
+    /* border: 2px solid red; */
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 5px;
+}

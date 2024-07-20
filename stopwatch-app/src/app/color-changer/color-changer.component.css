@@ -1,0 +1,18 @@
+.color-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+select {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}

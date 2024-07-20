@@ -1,0 +1,10 @@
+<div class="color-container">
+    <label>Select a color:</label>
+    <select (change)="changeColor($event)">
+        <option value="">--Choose a color--</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+    </select>
+    <button (click)="resetColor()">Reset</button>
+</div>

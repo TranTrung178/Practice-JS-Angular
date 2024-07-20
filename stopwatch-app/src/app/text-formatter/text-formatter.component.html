@@ -1,0 +1,7 @@
+<div class="text-formatter-container">
+    <textarea [(ngModel)]="inputText" placeholder="Enter your text here..." rows="5" cols="50"></textarea>
+    <br />
+    <button (click)="formatText()">Format Text</button>
+    <br />
+    <textarea [value]="formattedText" readonly rows="5" cols="50"></textarea>
+</div>

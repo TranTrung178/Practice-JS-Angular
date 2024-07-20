@@ -1,0 +1,8 @@
+<div class="item-container">
+    <button (click)="refreshItems()">Refresh</button>
+    <div class="row" *ngFor="let row of getVisibleItems() | slice:0:4; let i = index">
+        <div class="item" *ngFor="let item of getVisibleItems().slice(i * 4, (i + 1) * 4)">
+            {{ item }}
+        </div>
+    </div>
+</div>
